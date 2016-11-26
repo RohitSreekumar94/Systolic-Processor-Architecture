@@ -1,0 +1,95 @@
+#:C29    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   E:\Works\GitHub\Systolic-Processor-On-FPGA\ISE Design Files\DPU_matrix_multiplication
+#Date/Time:
+#:T   Mon Feb 22 00:01:29 2016
+#------------------------------
+	#Reading DPU_matrix_multiplication.ncd...
+	#Loading device for application Rf_Device from file '3s400.nph' in environment D:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "DPU_matrix_multiplication" is an NCD, version 3.2, device xc3s400, package tq144, speed -4
+	#Design creation date: 2016.02.21.18.30.37
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+unselect -all
+	#3
+unselect -all
+	#4
+select site 'RAMB16_X1Y2'
+	#site "RAMB16_X1Y2",  type = RAMB16  (RPM grid X80Y51)
+	#5
+unselect -all
+	#6
+unselect -all
+	#7
+unselect -all
+	#8
+unselect -all
+	#9
+unselect -all
+	#10
+unselect -all
+	#11
+unselect -all
+	#12
+unselect -all
+	#13
+select wire 'VFULLHEX(30056,-20897)'
+	#node = VFULLHEX(30056,-20897)
+	#14
+unselect -all
+	#15
+select wire 'VFULLHEX(30056,-20897)'
+	#node = VFULLHEX(30056,-20897)
+	#16
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#17
+unselect -all
+	#18
+select wire 'VFULLHEX(30056,-20897)'
+	#node = VFULLHEX(30056,-20897)
+	#19
+unselect -all
+	#20
+select wire 'VFULLHEX(30056,-20897)'
+	#node = VFULLHEX(30056,-20897)
+	#21
+post block
+	#ERROR:FPGAEditor:79 - The "post block" command without any other arguments cannot
+	#be performed unless the selection contains only a single site
+	#or single component.  Change the selection and try again.
+	#22
+unselect -all
+	#23
+select wire 'DOUBLE(30717,-26776)'
+	#node = DOUBLE(30717,-26776)
+	#24
+unselect -all
+	#25
+select wire 'VFULLHEX(30505,-33608)'
+	#node = VFULLHEX(30505,-33608)
+	#26
+unselect -all
+	#27
+select wire 'VUNIHEX(30360,-34645)'
+	#node = VUNIHEX(30360,-34645)
+	#28
+unselect -all
+	#29
+select site 'SLICE_X45Y14'
+	#site "SLICE_X45Y14",  type = SLICEL  (RPM grid X69Y34)
+	#30
+unselect -all
+	#31
+select site 'SLICE_X45Y14'
+	#site "SLICE_X45Y14",  type = SLICEL  (RPM grid X69Y34)
+	#32
+post block

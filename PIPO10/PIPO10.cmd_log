@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.syr" 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "PIPO10.ngc" PIPO10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o PIPO10_map.ncd PIPO10.ngd PIPO10.pcf 
+par -w -intstyle ise -ol high -t 1 PIPO10_map.ncd PIPO10.ncd PIPO10.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PIPO10.twx PIPO10.ncd -o PIPO10.twr PIPO10.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "PIPO10.ngc" PIPO10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o PIPO10_map.ncd PIPO10.ngd PIPO10.pcf 
+par -w -intstyle ise -ol high -t 1 PIPO10_map.ncd PIPO10.ncd PIPO10.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PIPO10.twx PIPO10.ncd -o PIPO10.twr PIPO10.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "PIPO10.ngc" PIPO10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o PIPO10_map.ncd PIPO10.ngd PIPO10.pcf 
+par -w -intstyle ise -ol high -t 1 PIPO10_map.ncd PIPO10.ncd PIPO10.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PIPO10.twx PIPO10.ncd -o PIPO10.twr PIPO10.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "PIPO10.ngc" PIPO10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o PIPO10_map.ncd PIPO10.ngd PIPO10.pcf 
+par -w -intstyle ise -ol high -t 1 PIPO10_map.ncd PIPO10.ncd PIPO10.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PIPO10.twx PIPO10.ncd -o PIPO10.twr PIPO10.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "PIPO10.ngc" PIPO10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o PIPO10_map.ncd PIPO10.ngd PIPO10.pcf 
+par -w -intstyle ise -ol high -t 1 PIPO10_map.ncd PIPO10.ncd PIPO10.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PIPO10.twx PIPO10.ncd -o PIPO10.twr PIPO10.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "PIPO10.ngc" PIPO10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o PIPO10_map.ncd PIPO10.ngd PIPO10.pcf 
+par -w -intstyle ise -ol high -t 1 PIPO10_map.ncd PIPO10.ncd PIPO10.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PIPO10.twx PIPO10.ncd -o PIPO10.twr PIPO10.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "PIPO10.ngc" PIPO10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o PIPO10_map.ncd PIPO10.ngd PIPO10.pcf 
+par -w -intstyle ise -ol high -t 1 PIPO10_map.ncd PIPO10.ncd PIPO10.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml PIPO10.twx PIPO10.ncd -o PIPO10.twr PIPO10.pcf 

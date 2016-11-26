@@ -1,0 +1,54 @@
+#:C13    
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   E:\Works\GitHub\Systolic-Processor-On-FPGA\ISE Design Files\DPU_array_matrix_multiplication_3
+#Date/Time:
+#:T   Sun Feb 21 23:59:06 2016
+#------------------------------
+	#Reading DPU_array_matrix_multiplication_3_map.ncd...
+	#Loading device for application Rf_Device from file '3s400.nph' in environment D:\Xilinx\14.7\ISE_DS\ISE\.
+	#   "DPU_array_matrix_multiplication_3" is an NCD, version 3.2, device xc3s400, package tq144, speed -4
+	#Design creation date: 2016.02.21.18.26.19
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+hilite -c tan
+	#WARNING:FPGAEditor:48 - Nothing to hilite -- there is nothing selected.
+	#3
+unselect -all
+	#4
+select site 'SLICE_X37Y54'
+	#site "SLICE_X37Y54",  type = SLICEL  (RPM grid X57Y114)
+	#5
+unselect -all
+	#6
+unselect -all
+	#7
+select -k comp 'A0<0>'
+	#8
+unselect -all
+	#9
+unselect -all
+	#10
+select site 'MULT18X18_X1Y7'
+	#site "MULT18X18_X1Y7",  type = MULT18X18  (RPM grid X80Y130)
+	#11
+unselect -all
+	#12
+select site 'MULT18X18_X1Y7'
+	#site "MULT18X18_X1Y7",  type = MULT18X18  (RPM grid X80Y130)
+	#13
+post block
+	#14
+refresh
+	#15
+unselect -all
+	#16
+select site 'RAMB16_X1Y7'
+	#site "RAMB16_X1Y7",  type = RAMB16  (RPM grid X80Y131)
+	#17
+post block

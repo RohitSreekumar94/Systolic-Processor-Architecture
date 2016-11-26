@@ -1,0 +1,26 @@
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "MAC4.ngc" MAC4.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o MAC4_map.ncd MAC4.ngd MAC4.pcf 
+par -w -intstyle ise -ol high -t 1 MAC4_map.ncd MAC4.ncd MAC4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MAC4.twx MAC4.ncd -o MAC4.twr MAC4.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "MAC4.ngc" MAC4.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o MAC4_map.ncd MAC4.ngd MAC4.pcf 
+par -w -intstyle ise -ol high -t 1 MAC4_map.ncd MAC4.ncd MAC4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MAC4.twx MAC4.ncd -o MAC4.twr MAC4.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.syr" 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "MAC4.ngc" MAC4.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o MAC4_map.ncd MAC4.ngd MAC4.pcf 
+par -w -intstyle ise -ol high -t 1 MAC4_map.ncd MAC4.ncd MAC4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MAC4.twx MAC4.ncd -o MAC4.twr MAC4.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "MAC4.ngc" MAC4.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o MAC4_map.ncd MAC4.ngd MAC4.pcf 
+par -w -intstyle ise -ol high -t 1 MAC4_map.ncd MAC4.ncd MAC4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MAC4.twx MAC4.ncd -o MAC4.twr MAC4.pcf 
+xst -intstyle ise -filter "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/iseconfig/filter.filter" -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.syr" 
+ngdbuild -filter "iseconfig/filter.filter" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "MAC4.ngc" MAC4.ngd  
+map -filter "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/iseconfig/filter.filter" -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o MAC4_map.ncd MAC4.ngd MAC4.pcf 
+par -filter "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/iseconfig/filter.filter" -w -intstyle ise -ol high -t 1 MAC4_map.ncd MAC4.ncd MAC4.pcf 
+trce -filter {E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/iseconfig/filter.filter} -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MAC4.twx MAC4.ncd -o MAC4.twr MAC4.pcf 

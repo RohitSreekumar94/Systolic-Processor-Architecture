@@ -1,0 +1,3 @@
+vhdl work "../DFF_PC/DFF_PC.vhd"
+vhdl work "PIPO4.vhd"
+vhdl work "PIPO4_tb.vhd"

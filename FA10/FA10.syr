@@ -1,0 +1,324 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.13 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.14 secs
+ 
+--> Reading design: FA10.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FA10.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FA10"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-tq144
+
+---- Source Options
+Top Module Name                    : FA10
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd" in Library work.
+Architecture ha_arch of Entity ha is up to date.
+Compiling vhdl file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd" in Library work.
+Architecture fa_arch of Entity fa is up to date.
+Compiling vhdl file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd" in Library work.
+Entity <fa10> compiled.
+Entity <fa10> (Architecture <fa10_arch>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <FA10> in library <work> (architecture <fa10_arch>).
+
+Analyzing hierarchy for entity <HA> in library <work> (architecture <ha_arch>).
+
+Analyzing hierarchy for entity <FA> in library <work> (architecture <fa_arch>).
+
+Analyzing hierarchy for entity <HA> in library <work> (architecture <ha_arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <FA10> in library <work> (Architecture <fa10_arch>).
+Entity <FA10> analyzed. Unit <FA10> generated.
+
+Analyzing Entity <HA> in library <work> (Architecture <ha_arch>).
+Entity <HA> analyzed. Unit <HA> generated.
+
+Analyzing Entity <FA> in library <work> (Architecture <fa_arch>).
+Entity <FA> analyzed. Unit <FA> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <HA>.
+    Related source file is "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd".
+    Found 1-bit xor2 for signal <Sout>.
+Unit <HA> synthesized.
+
+
+Synthesizing Unit <FA>.
+    Related source file is "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd".
+Unit <FA> synthesized.
+
+
+Synthesizing Unit <FA10>.
+    Related source file is "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd".
+Unit <FA10> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 19
+ 1-bit xor2                                            : 19
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Xors                                                 : 19
+ 1-bit xor2                                            : 19
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <FA10> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FA10, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : FA10.ngr
+Top Level Output File Name         : FA10
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 31
+
+Cell Usage :
+# BELS                             : 19
+#      LUT2                        : 1
+#      LUT3                        : 16
+#      LUT4                        : 2
+# IO Buffers                       : 31
+#      IBUF                        : 20
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400tq144-4 
+
+ Number of Slices:                       11  out of   3584     0%  
+ Number of 4 input LUTs:                 19  out of   7168     0%  
+ Number of IOs:                          31
+ Number of bonded IOBs:                  31  out of     97    31%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 22.017ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 130 / 11
+-------------------------------------------------------------------------
+Delay:               22.017ns (Levels of Logic = 11)
+  Source:            A<1> (PAD)
+  Destination:       Cout (PAD)
+
+  Data Path: A<1> to Cout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.821   1.216  A_1_IBUF (A_1_IBUF)
+     LUT4:I0->O            2   0.551   1.072  FA1/Cout1 (D<1>)
+     LUT3:I1->O            2   0.551   1.072  FA2/Cout1 (D<2>)
+     LUT3:I1->O            2   0.551   1.072  FA3/Cout1 (D<3>)
+     LUT3:I1->O            2   0.551   1.072  FA4/Cout1 (D<4>)
+     LUT3:I1->O            2   0.551   1.072  FA5/Cout1 (D<5>)
+     LUT3:I1->O            2   0.551   1.072  FA6/Cout1 (D<6>)
+     LUT3:I1->O            2   0.551   1.072  FA7/Cout1 (D<7>)
+     LUT3:I1->O            2   0.551   1.072  FA8/Cout1 (D<8>)
+     LUT3:I1->O            1   0.551   0.801  FA9/Cout1 (Cout_OBUF)
+     OBUF:I->O                 5.644          Cout_OBUF (Cout)
+    ----------------------------------------
+    Total                     22.017ns (11.424ns logic, 10.593ns route)
+                                       (51.9% logic, 48.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.03 secs
+ 
+--> 
+
+Total memory usage is 250620 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

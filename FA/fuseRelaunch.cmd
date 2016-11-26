@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA_tb_isim_beh.exe" -prj "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA_tb_beh.prj" "work.FA_tb" 

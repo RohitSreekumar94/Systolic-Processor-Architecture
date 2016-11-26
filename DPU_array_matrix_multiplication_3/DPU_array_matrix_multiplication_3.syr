@@ -1,0 +1,636 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.38 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.38 secs
+ 
+--> Reading design: DPU_array_matrix_multiplication_3.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "DPU_array_matrix_multiplication_3.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "DPU_array_matrix_multiplication_3"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-tq144
+
+---- Source Options
+Top Module Name                    : DPU_array_matrix_multiplication_3
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/DPU_array_matrix_multiplication_3 is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd".
+WARNING:HDLParsers:3607 - Unit work/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd".
+WARNING:HDLParsers:3607 - Unit work/DPU_matrix_multiplication is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd".
+WARNING:HDLParsers:3607 - Unit work/DPU_matrix_multiplication/DPU_matrix_multiplication_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd".
+WARNING:HDLParsers:3607 - Unit work/FA10 is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd".
+WARNING:HDLParsers:3607 - Unit work/FA10/FA10_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd".
+WARNING:HDLParsers:3607 - Unit work/MAC4 is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd".
+WARNING:HDLParsers:3607 - Unit work/MAC4/MAC4_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd".
+WARNING:HDLParsers:3607 - Unit work/PIPO10 is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd".
+WARNING:HDLParsers:3607 - Unit work/PIPO10/PIPO10_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd".
+WARNING:HDLParsers:3607 - Unit work/PIPO4 is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd".
+WARNING:HDLParsers:3607 - Unit work/PIPO4/PIPO4_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd".
+WARNING:HDLParsers:3607 - Unit work/DFF_PC is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.vhd".
+WARNING:HDLParsers:3607 - Unit work/DFF_PC/DFF_PC_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.vhd".
+WARNING:HDLParsers:3607 - Unit work/FA is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd".
+WARNING:HDLParsers:3607 - Unit work/FA/FA_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd".
+WARNING:HDLParsers:3607 - Unit work/FAM is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FAM/FAM.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FAM/FAM.vhd".
+WARNING:HDLParsers:3607 - Unit work/FAM/FAM_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FAM/FAM.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FAM/FAM.vhd".
+WARNING:HDLParsers:3607 - Unit work/HAM is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HAM/HAM.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HAM/HAM.vhd".
+WARNING:HDLParsers:3607 - Unit work/HAM/HA_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HAM/HAM.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HAM/HAM.vhd".
+WARNING:HDLParsers:3607 - Unit work/HA is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd".
+WARNING:HDLParsers:3607 - Unit work/HA/HA_arch is now defined in a different file.  It was defined in "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd", and is now defined in "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd".
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd" in Library work.
+Entity <ha> compiled.
+Entity <ha> (Architecture <ha_arch>) compiled.
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.vhd" in Library work.
+Architecture dff_pc_arch of Entity dff_pc is up to date.
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd" in Library work.
+Entity <fa> compiled.
+Entity <fa> (Architecture <fa_arch>) compiled.
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HAM/HAM.vhd" in Library work.
+Entity <ham> compiled.
+Entity <ham> (Architecture <ha_arch>) compiled.
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FAM/FAM.vhd" in Library work.
+Entity <fam> compiled.
+Entity <fam> (Architecture <fam_arch>) compiled.
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd" in Library work.
+Entity <pipo4> compiled.
+Entity <pipo4> (Architecture <pipo4_arch>) compiled.
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd" in Library work.
+Entity <mac4> compiled.
+Entity <mac4> (Architecture <mac4_arch>) compiled.
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd" in Library work.
+Entity <fa10> compiled.
+Entity <fa10> (Architecture <fa10_arch>) compiled.
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" in Library work.
+Entity <pipo10> compiled.
+Entity <pipo10> (Architecture <pipo10_arch>) compiled.
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd" in Library work.
+Architecture dpu_matrix_multiplication_arch of Entity dpu_matrix_multiplication is up to date.
+Compiling vhdl file "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd" in Library work.
+Architecture dpu_array_matrix_multiplication_3_arch of Entity dpu_array_matrix_multiplication_3 is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <DPU_array_matrix_multiplication_3> in library <work> (architecture <dpu_array_matrix_multiplication_3_arch>).
+
+Analyzing hierarchy for entity <DPU_matrix_multiplication> in library <work> (architecture <dpu_matrix_multiplication_arch>).
+
+Analyzing hierarchy for entity <PIPO4> in library <work> (architecture <pipo4_arch>).
+
+Analyzing hierarchy for entity <MAC4> in library <work> (architecture <mac4_arch>).
+
+Analyzing hierarchy for entity <FA10> in library <work> (architecture <fa10_arch>).
+
+Analyzing hierarchy for entity <PIPO10> in library <work> (architecture <pipo10_arch>).
+
+Analyzing hierarchy for entity <DFF_PC> in library <work> (architecture <dff_pc_arch>).
+
+Analyzing hierarchy for entity <HAM> in library <work> (architecture <ha_arch>).
+
+Analyzing hierarchy for entity <FAM> in library <work> (architecture <fam_arch>).
+
+Analyzing hierarchy for entity <HA> in library <work> (architecture <ha_arch>).
+
+Analyzing hierarchy for entity <FA> in library <work> (architecture <fa_arch>).
+
+Analyzing hierarchy for entity <HA> in library <work> (architecture <ha_arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <DPU_array_matrix_multiplication_3> in library <work> (Architecture <dpu_array_matrix_multiplication_3_arch>).
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd" line 43: Unconnected output port 'Bout' of component 'DPU_matrix_multiplication'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd" line 46: Unconnected output port 'Bout' of component 'DPU_matrix_multiplication'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd" line 47: Unconnected output port 'Aout' of component 'DPU_matrix_multiplication'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd" line 48: Unconnected output port 'Aout' of component 'DPU_matrix_multiplication'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd" line 49: Unconnected output port 'Aout' of component 'DPU_matrix_multiplication'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd" line 49: Unconnected output port 'Bout' of component 'DPU_matrix_multiplication'.
+Entity <DPU_array_matrix_multiplication_3> analyzed. Unit <DPU_array_matrix_multiplication_3> generated.
+
+Analyzing Entity <DPU_matrix_multiplication> in library <work> (Architecture <dpu_matrix_multiplication_arch>).
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd" line 61: Unconnected output port 'Cout' of component 'FA10'.
+Entity <DPU_matrix_multiplication> analyzed. Unit <DPU_matrix_multiplication> generated.
+
+Analyzing Entity <PIPO4> in library <work> (Architecture <pipo4_arch>).
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd" line 17: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd" line 18: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd" line 19: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd" line 20: Unconnected output port 'Qnot' of component 'DFF_PC'.
+Entity <PIPO4> analyzed. Unit <PIPO4> generated.
+
+Analyzing Entity <DFF_PC> in library <work> (Architecture <dff_pc_arch>).
+Entity <DFF_PC> analyzed. Unit <DFF_PC> generated.
+
+Analyzing Entity <MAC4> in library <work> (Architecture <mac4_arch>).
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd" line 49: Unconnected output port 'Cout' of component 'HA'.
+Entity <MAC4> analyzed. Unit <MAC4> generated.
+
+Analyzing Entity <HAM> in library <work> (Architecture <ha_arch>).
+Entity <HAM> analyzed. Unit <HAM> generated.
+
+Analyzing Entity <FAM> in library <work> (Architecture <fam_arch>).
+Entity <FAM> analyzed. Unit <FAM> generated.
+
+Analyzing Entity <HA> in library <work> (Architecture <ha_arch>).
+Entity <HA> analyzed. Unit <HA> generated.
+
+Analyzing Entity <FA> in library <work> (Architecture <fa_arch>).
+Entity <FA> analyzed. Unit <FA> generated.
+
+Analyzing Entity <FA10> in library <work> (Architecture <fa10_arch>).
+Entity <FA10> analyzed. Unit <FA10> generated.
+
+Analyzing Entity <PIPO10> in library <work> (Architecture <pipo10_arch>).
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" line 18: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" line 19: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" line 20: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" line 21: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" line 22: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" line 23: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" line 24: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" line 25: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" line 26: Unconnected output port 'Qnot' of component 'DFF_PC'.
+WARNING:Xst:753 - "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd" line 27: Unconnected output port 'Qnot' of component 'DFF_PC'.
+Entity <PIPO10> analyzed. Unit <PIPO10> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <DFF_PC>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.vhd".
+    Found 1-bit register for signal <Qnot>.
+    Found 1-bit register for signal <Q>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <DFF_PC> synthesized.
+
+
+Synthesizing Unit <HA>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd".
+    Found 1-bit xor2 for signal <Sout>.
+Unit <HA> synthesized.
+
+
+Synthesizing Unit <PIPO4>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd".
+Unit <PIPO4> synthesized.
+
+
+Synthesizing Unit <PIPO10>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd".
+Unit <PIPO10> synthesized.
+
+
+Synthesizing Unit <HAM>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HAM/HAM.vhd".
+Unit <HAM> synthesized.
+
+
+Synthesizing Unit <FAM>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FAM/FAM.vhd".
+Unit <FAM> synthesized.
+
+
+Synthesizing Unit <FA>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd".
+Unit <FA> synthesized.
+
+
+Synthesizing Unit <MAC4>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd".
+WARNING:Xst:1780 - Signal <C4<3>> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+Unit <MAC4> synthesized.
+
+
+Synthesizing Unit <FA10>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd".
+Unit <FA10> synthesized.
+
+
+Synthesizing Unit <DPU_matrix_multiplication>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd".
+Unit <DPU_matrix_multiplication> synthesized.
+
+
+Synthesizing Unit <DPU_array_matrix_multiplication_3>.
+    Related source file is "D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd".
+Unit <DPU_array_matrix_multiplication_3> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 324
+ 1-bit register                                        : 324
+# Xors                                                 : 387
+ 1-bit xor2                                            : 387
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 324
+ Flip-Flops                                            : 324
+# Xors                                                 : 387
+ 1-bit xor2                                            : 387
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2677 - Node <DFF9/Qnot> of sequential type is unconnected in block <PIPO10>.
+WARNING:Xst:2677 - Node <DFF8/Qnot> of sequential type is unconnected in block <PIPO10>.
+WARNING:Xst:2677 - Node <DFF7/Qnot> of sequential type is unconnected in block <PIPO10>.
+WARNING:Xst:2677 - Node <DFF6/Qnot> of sequential type is unconnected in block <PIPO10>.
+WARNING:Xst:2677 - Node <DFF5/Qnot> of sequential type is unconnected in block <PIPO10>.
+WARNING:Xst:2677 - Node <DFF4/Qnot> of sequential type is unconnected in block <PIPO10>.
+WARNING:Xst:2677 - Node <DFF3/Qnot> of sequential type is unconnected in block <PIPO10>.
+WARNING:Xst:2677 - Node <DFF2/Qnot> of sequential type is unconnected in block <PIPO10>.
+WARNING:Xst:2677 - Node <DFF1/Qnot> of sequential type is unconnected in block <PIPO10>.
+WARNING:Xst:2677 - Node <DFF0/Qnot> of sequential type is unconnected in block <PIPO10>.
+WARNING:Xst:2677 - Node <DPU8/R0/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU8/R0/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU8/R0/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU8/R0/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU8/R1/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU8/R1/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU8/R1/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU8/R1/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU7/R0/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU7/R0/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU7/R0/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU7/R0/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU7/R1/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU7/R1/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU7/R1/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU7/R1/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU6/R0/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU6/R0/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU6/R0/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU6/R0/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU6/R1/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU6/R1/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU6/R1/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU6/R1/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU5/R0/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU5/R0/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU5/R0/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU5/R0/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU5/R1/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU5/R1/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU5/R1/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU5/R1/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU4/R0/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU4/R0/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU4/R0/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU4/R0/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU4/R1/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU4/R1/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU4/R1/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU4/R1/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU3/R0/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU3/R0/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU3/R0/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU3/R0/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU3/R1/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU3/R1/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU3/R1/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU3/R1/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU2/R0/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU2/R0/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU2/R0/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU2/R0/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU2/R1/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU2/R1/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU2/R1/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU2/R1/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU1/R0/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU1/R0/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU1/R0/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU1/R0/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU1/R1/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU1/R1/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU1/R1/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU1/R1/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU0/R0/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU0/R0/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU0/R0/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU0/R0/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU0/R1/DFF3/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU0/R1/DFF2/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU0/R1/DFF1/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+WARNING:Xst:2677 - Node <DPU0/R1/DFF0/Qnot> of sequential type is unconnected in block <DPU_array_matrix_multiplication_3>.
+
+Optimizing unit <DPU_array_matrix_multiplication_3> ...
+
+Optimizing unit <PIPO10> ...
+
+Optimizing unit <MAC4> ...
+
+Optimizing unit <FA10> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block DPU_array_matrix_multiplication_3, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 162
+ Flip-Flops                                            : 162
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : DPU_array_matrix_multiplication_3.ngr
+Top Level Output File Name         : DPU_array_matrix_multiplication_3
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 116
+
+Cell Usage :
+# BELS                             : 452
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 13
+#      LUT2_D                      : 27
+#      LUT2_L                      : 14
+#      LUT3                        : 109
+#      LUT3_D                      : 17
+#      LUT3_L                      : 9
+#      LUT4                        : 150
+#      LUT4_D                      : 95
+#      LUT4_L                      : 16
+# FlipFlops/Latches                : 162
+#      FDCP                        : 162
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 115
+#      IBUF                        : 25
+#      OBUF                        : 90
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400tq144-4 
+
+ Number of Slices:                      256  out of   3584     7%  
+ Number of Slice Flip Flops:            162  out of   7168     2%  
+ Number of 4 input LUTs:                451  out of   7168     6%  
+ Number of IOs:                         116
+ Number of bonded IOBs:                 116  out of     97   119% (*) 
+ Number of GCLKs:                         1  out of      8    12%  
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 162   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------------+------------------------+-------+
+Control Signal                                         | Buffer(FF name)        | Load  |
+-------------------------------------------------------+------------------------+-------+
+DPU0/R0/DFF0/clear_inv(DPU8/R2/DFF0/clear_inv1_INV_0:O)| NONE(DPU0/R0/DFF0/Q)   | 162   |
+DPU0/R0/DFF0/preset_inv(XST_GND:G)                     | NONE(DPU0/R0/DFF0/Q)   | 162   |
+-------------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 12.463ns (Maximum Frequency: 80.238MHz)
+   Minimum input arrival time before clock: 1.825ns
+   Maximum output required time after clock: 7.367ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 12.463ns (frequency: 80.238MHz)
+  Total number of paths / destination ports: 15060 / 138
+-------------------------------------------------------------------------
+Delay:               12.463ns (Levels of Logic = 8)
+  Source:            DPU2/R1/DFF1/Q (FF)
+  Destination:       DPU2/R2/DFF9/Q (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: DPU2/R1/DFF1/Q to DPU2/R2/DFF9/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:C->Q             7   0.720   1.405  DPU2/R1/DFF1/Q (DPU2/R1/DFF1/Q)
+     LUT4_D:I0->O          1   0.551   0.827  DPU2/MAC/HAM10/H1/Cout1 (DPU2/MAC/C1<0>)
+     LUT4:I3->O            4   0.551   0.943  DPU2/MAC/FAM20/Cout1 (DPU2/MAC/C2<0>)
+     LUT4:I3->O            2   0.551   1.072  DPU2/MAC/FAM30/H2/Mxor_Sout_Result1 (DPU2/S3<3>)
+     LUT3:I1->O            2   0.551   0.945  DPU2/FA/FA3/Cout1 (DPU2/FA/D<3>)
+     LUT3:I2->O            2   0.551   0.945  DPU2/FA/FA4/Cout1 (DPU2/FA/D<4>)
+     LUT3_D:I2->LO         1   0.551   0.168  DPU2/FA/FA5/Cout1 (N232)
+     LUT3:I2->O            1   0.551   0.827  DPU2/FA/FA6/Cout1 (DPU2/FA/D<6>)
+     LUT4:I3->O            1   0.551   0.000  DPU2/FA/FA9/H2/Mxor_Sout_Result1 (DPU2/S6<9>)
+     FDCP:D                    0.203          DPU2/R2/DFF9/Q
+    ----------------------------------------
+    Total                     12.463ns (5.331ns logic, 7.132ns route)
+                                       (42.8% logic, 57.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 24 / 24
+-------------------------------------------------------------------------
+Offset:              1.825ns (Levels of Logic = 1)
+  Source:            B2<3> (PAD)
+  Destination:       DPU6/R1/DFF3/Q (FF)
+  Destination Clock: CLK rising
+
+  Data Path: B2<3> to DPU6/R1/DFF3/Q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   0.801  B2_3_IBUF (B2_3_IBUF)
+     FDCP:D                    0.203          DPU6/R1/DFF3/Q
+    ----------------------------------------
+    Total                      1.825ns (1.024ns logic, 0.801ns route)
+                                       (56.1% logic, 43.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 90 / 90
+-------------------------------------------------------------------------
+Offset:              7.367ns (Levels of Logic = 1)
+  Source:            DPU0/R2/DFF7/Q (FF)
+  Destination:       O0<7> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: DPU0/R2/DFF7/Q to O0<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:C->Q             6   0.720   1.003  DPU0/R2/DFF7/Q (DPU0/R2/DFF7/Q)
+     OBUF:I->O                 5.644          O0_7_OBUF (O0<7>)
+    ----------------------------------------
+    Total                      7.367ns (6.364ns logic, 1.003ns route)
+                                       (86.4% logic, 13.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.00 secs
+ 
+--> 
+
+Total memory usage is 263016 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  128 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

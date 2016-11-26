@@ -1,0 +1,38 @@
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3_tb_isim_beh.exe -prj E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3_tb_beh.prj work.DPU_array_matrix_multiplication_3_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/../HA/HA.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/../HAM/HAM.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/../FAM/FAM.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/../FA/FA.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/../DFF_PC/DFF_PC.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/../PIPO4/PIPO4.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/../PIPO10/PIPO10.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/../MAC4/MAC4.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/../FA10/FA10.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/../DPU_matrix_multiplication/DPU_matrix_multiplication.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd" into library work
+Parsing VHDL file "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture dff_pc_arch of entity DFF_PC [dff_pc_default]
+Compiling architecture pipo4_arch of entity PIPO4 [pipo4_default]
+Compiling architecture ha_arch of entity HA [ha_default]
+Compiling architecture ha_arch of entity HAM [ham_default]
+Compiling architecture fam_arch of entity FAM [fam_default]
+Compiling architecture fa_arch of entity FA [fa_default]
+Compiling architecture mac4_arch of entity MAC4 [mac4_default]
+Compiling architecture fa10_arch of entity FA10 [fa10_default]
+Compiling architecture pipo10_arch of entity PIPO10 [pipo10_default]
+Compiling architecture dpu_matrix_multiplication_arch of entity DPU_matrix_multiplication [dpu_matrix_multiplication_defaul...]
+Compiling architecture dpu_array_matrix_multiplication_3_arch of entity DPU_array_matrix_multiplication_3 [dpu_array_matrix_multiplication_...]
+Compiling architecture tb of entity dpu_array_matrix_multiplication_...
+Time Resolution for simulation is 1ps.
+Compiled 25 VHDL Units
+Built simulation executable E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3_tb_isim_beh.exe
+Fuse Memory Usage: 28508 KB
+Fuse CPU Usage: 546 ms

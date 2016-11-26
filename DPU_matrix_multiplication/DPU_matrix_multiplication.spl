@@ -1,0 +1,9 @@
+[Inputs]
+CLK
+=Ain[3:0]=
+=Bin[3:0]=
+[Outputs]
+=Aout[3:0]=
+=Bout[3:0]=
+=Result[9:0]=
+[BiDir]

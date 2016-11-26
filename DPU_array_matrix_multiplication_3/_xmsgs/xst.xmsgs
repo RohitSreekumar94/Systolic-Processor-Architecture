@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DPU_array_matrix_multiplication_3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DPU_matrix_multiplication</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DPU_matrix_multiplication/DPU_matrix_multiplication_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA10</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA10/FA10_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MAC4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MAC4/MAC4_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PIPO10</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PIPO10/PIPO10_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PIPO4</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PIPO4/PIPO4_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DFF_PC</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/DFF_PC/DFF_PC_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FA/FA_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FAM</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FAM/FAM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FAM/FAM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/FAM/FAM_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FAM/FAM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/FAM/FAM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HAM</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HAM/HAM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HAM/HAM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HAM/HA_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HAM/HAM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HAM/HAM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/HA/HA_arch</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd</arg>&quot; line <arg fmt="%d" index="2">43</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bout</arg>&apos; of component &apos;<arg fmt="%s" index="4">DPU_matrix_multiplication</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd</arg>&quot; line <arg fmt="%d" index="2">46</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bout</arg>&apos; of component &apos;<arg fmt="%s" index="4">DPU_matrix_multiplication</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd</arg>&quot; line <arg fmt="%d" index="2">47</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Aout</arg>&apos; of component &apos;<arg fmt="%s" index="4">DPU_matrix_multiplication</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd</arg>&quot; line <arg fmt="%d" index="2">48</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Aout</arg>&apos; of component &apos;<arg fmt="%s" index="4">DPU_matrix_multiplication</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd</arg>&quot; line <arg fmt="%d" index="2">49</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Aout</arg>&apos; of component &apos;<arg fmt="%s" index="4">DPU_matrix_multiplication</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_array_matrix_multiplication_3/DPU_array_matrix_multiplication_3.vhd</arg>&quot; line <arg fmt="%d" index="2">49</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Bout</arg>&apos; of component &apos;<arg fmt="%s" index="4">DPU_matrix_multiplication</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication.vhd</arg>&quot; line <arg fmt="%d" index="2">61</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Cout</arg>&apos; of component &apos;<arg fmt="%s" index="4">FA10</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd</arg>&quot; line <arg fmt="%d" index="2">17</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd</arg>&quot; line <arg fmt="%d" index="2">18</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd</arg>&quot; line <arg fmt="%d" index="2">19</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO4/PIPO4.vhd</arg>&quot; line <arg fmt="%d" index="2">20</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/MAC4/MAC4.vhd</arg>&quot; line <arg fmt="%d" index="2">49</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Cout</arg>&apos; of component &apos;<arg fmt="%s" index="4">HA</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot; line <arg fmt="%d" index="2">18</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot; line <arg fmt="%d" index="2">19</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot; line <arg fmt="%d" index="2">20</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot; line <arg fmt="%d" index="2">21</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot; line <arg fmt="%d" index="2">22</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot; line <arg fmt="%d" index="2">23</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot; line <arg fmt="%d" index="2">24</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot; line <arg fmt="%d" index="2">25</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot; line <arg fmt="%d" index="2">26</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">D:/resources/Rohit/Systolic-Processor-On-FPGA/ISE Design Files/PIPO10/PIPO10.vhd</arg>&quot; line <arg fmt="%d" index="2">27</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">Qnot</arg>&apos; of component &apos;<arg fmt="%s" index="4">DFF_PC</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="old" >Signal &lt;<arg fmt="%s" index="1">C4&lt;3&gt;</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DFF9/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PIPO10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DFF8/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PIPO10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DFF7/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PIPO10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DFF6/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PIPO10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DFF5/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PIPO10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DFF4/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PIPO10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PIPO10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PIPO10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PIPO10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PIPO10</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU8/R0/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU8/R0/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU8/R0/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU8/R0/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU8/R1/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU8/R1/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU8/R1/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU8/R1/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU7/R0/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU7/R0/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU7/R0/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU7/R0/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU7/R1/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU7/R1/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU7/R1/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU7/R1/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU6/R0/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU6/R0/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU6/R0/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU6/R0/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU6/R1/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU6/R1/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU6/R1/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU6/R1/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU5/R0/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU5/R0/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU5/R0/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU5/R0/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU5/R1/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU5/R1/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU5/R1/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU5/R1/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU4/R0/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU4/R0/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU4/R0/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU4/R0/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU4/R1/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU4/R1/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU4/R1/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU4/R1/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU3/R0/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU3/R0/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU3/R0/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU3/R0/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU3/R1/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU3/R1/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU3/R1/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU3/R1/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU2/R0/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU2/R0/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU2/R0/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU2/R0/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU2/R1/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU2/R1/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU2/R1/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU2/R1/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU1/R0/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU1/R0/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU1/R0/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU1/R0/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU1/R1/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU1/R1/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU1/R1/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU1/R1/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU0/R0/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU0/R0/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU0/R0/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU0/R0/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU0/R1/DFF3/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU0/R1/DFF2/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU0/R1/DFF1/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">DPU0/R1/DFF0/Qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">DPU_array_matrix_multiplication_3</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="old" > (*) More than 100% of Device resources are used
+</msg>
+
+</messages>
+

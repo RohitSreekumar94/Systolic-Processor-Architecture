@@ -1,0 +1,6 @@
+vhdl isim_temp "../HA/HA.vhd"
+vhdl isim_temp "../HAM/HAM.vhd"
+vhdl isim_temp "../FAM/FAM.vhd"
+vhdl isim_temp "../FA/FA.vhd"
+vhdl isim_temp "MAC4.vhd"
+vhdl isim_temp "MAC4_tb.vhd"

@@ -1,0 +1,5 @@
+work	"../FA/FA.vhd"
+work	"../FAM/FAM.vhd"
+work	"../HA/HA.vhd"
+work	"../HAM/HAM.vhd"
+work	"MAC4.vhd"

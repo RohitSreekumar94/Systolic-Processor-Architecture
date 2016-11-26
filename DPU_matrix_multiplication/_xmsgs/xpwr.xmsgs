@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Power" num="1693" delta="new" >
+                      --------------------------------------------------------------
+                      The power estimate will be calculated using PRODUCTION data.
+                      --------------------------------------------------------------
+
+</msg>
+
+<msg type="warning" file="PowerEstimator" num="270" delta="new" >Power estimate is considered inaccurate. To see details, generate an advanced report with the &quot;-v&quot; switch.
+</msg>
+
+<msg type="warning" file="Power" num="1337" delta="new" >Clock frequency for clock net &quot;<arg fmt="%s" index="1">CLK_BUFGP</arg>&quot; is zero.
+</msg>
+
+<msg type="warning" file="Power" num="1337" delta="new" >Clock frequency for clock net &quot;<arg fmt="%s" index="1">CLK_BUFGP/IBUFG</arg>&quot; is zero.
+</msg>
+
+<msg type="warning" file="Power" num="1369" delta="new" >Clock frequency for one or more clocks was not found through
+timing constraints (PCF file) or simulation data.  Without knowing the
+clock frequency of all clocks, dynamic power information for those clock
+domains will default to zero which may under-estimate the power for this
+design.  To avoid this warning, provide at least one of the following:
+  1. The proper timing constraints (PERIOD) for clocks (re-implement design
+     and load the newly generated PCF file into XPower Analyzer)
+  2. A post PAR simulation-generated VCD or SAIF file indicating clock
+     frequencies
+  3. The clock frequency for clocks in the &quot;By Type -&gt; Clocks&quot; view in the
+     XPower Analyzer GUI and then applying &quot;Update Power Analysis&quot;
+</msg>
+
+</messages>
+

@@ -1,0 +1,3 @@
+work	"../FA/FA.vhd"
+work	"../HA/HA.vhd"
+work	"FA10.vhd"

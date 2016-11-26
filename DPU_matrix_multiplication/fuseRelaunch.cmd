@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication_tb_isim_beh.exe" -prj "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DPU_matrix_multiplication/DPU_matrix_multiplication_tb_beh.prj" "work.DPU_matrix_multiplication_tb" 

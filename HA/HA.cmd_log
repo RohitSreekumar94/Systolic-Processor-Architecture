@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.syr" 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.syr" 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "HA.ngc" HA.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o HA_map.ncd HA.ngd HA.pcf 
+par -w -intstyle ise -ol high -t 1 HA_map.ncd HA.ncd HA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml HA.twx HA.ncd -o HA.twr HA.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/HA/HA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "HA.ngc" HA.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o HA_map.ncd HA.ngd HA.pcf 
+par -w -intstyle ise -ol high -t 1 HA_map.ncd HA.ncd HA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml HA.twx HA.ncd -o HA.twr HA.pcf 

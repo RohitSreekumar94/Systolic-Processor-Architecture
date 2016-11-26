@@ -1,0 +1,189 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml FA10.twx FA10.ncd -o FA10.twr FA10.pcf
+
+Design file:              FA10.ncd
+Physical constraint file: FA10.pcf
+Device,package,speed:     xc3s400,tq144,-4 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Cout           |   18.361|
+A<0>           |Sout<0>        |    9.575|
+A<0>           |Sout<1>        |    9.966|
+A<0>           |Sout<2>        |   11.002|
+A<0>           |Sout<3>        |   11.941|
+A<0>           |Sout<4>        |   13.310|
+A<0>           |Sout<5>        |   13.738|
+A<0>           |Sout<6>        |   14.311|
+A<0>           |Sout<7>        |   14.801|
+A<0>           |Sout<8>        |   17.503|
+A<0>           |Sout<9>        |   18.591|
+A<1>           |Cout           |   18.308|
+A<1>           |Sout<1>        |    9.862|
+A<1>           |Sout<2>        |   10.949|
+A<1>           |Sout<3>        |   11.888|
+A<1>           |Sout<4>        |   13.257|
+A<1>           |Sout<5>        |   13.685|
+A<1>           |Sout<6>        |   14.258|
+A<1>           |Sout<7>        |   14.748|
+A<1>           |Sout<8>        |   17.450|
+A<1>           |Sout<9>        |   18.538|
+A<2>           |Cout           |   16.899|
+A<2>           |Sout<2>        |    9.457|
+A<2>           |Sout<3>        |   10.479|
+A<2>           |Sout<4>        |   11.848|
+A<2>           |Sout<5>        |   12.276|
+A<2>           |Sout<6>        |   12.849|
+A<2>           |Sout<7>        |   13.339|
+A<2>           |Sout<8>        |   16.041|
+A<2>           |Sout<9>        |   17.129|
+A<3>           |Cout           |   16.208|
+A<3>           |Sout<3>        |    9.373|
+A<3>           |Sout<4>        |   11.157|
+A<3>           |Sout<5>        |   11.585|
+A<3>           |Sout<6>        |   12.158|
+A<3>           |Sout<7>        |   12.648|
+A<3>           |Sout<8>        |   15.350|
+A<3>           |Sout<9>        |   16.438|
+A<4>           |Cout           |   14.490|
+A<4>           |Sout<4>        |    9.884|
+A<4>           |Sout<5>        |    9.867|
+A<4>           |Sout<6>        |   10.440|
+A<4>           |Sout<7>        |   10.930|
+A<4>           |Sout<8>        |   13.632|
+A<4>           |Sout<9>        |   14.720|
+A<5>           |Cout           |   13.802|
+A<5>           |Sout<5>        |    9.249|
+A<5>           |Sout<6>        |    9.752|
+A<5>           |Sout<7>        |   10.242|
+A<5>           |Sout<8>        |   12.944|
+A<5>           |Sout<9>        |   14.032|
+A<6>           |Cout           |   11.782|
+A<6>           |Sout<6>        |    7.525|
+A<6>           |Sout<7>        |    8.222|
+A<6>           |Sout<8>        |   10.924|
+A<6>           |Sout<9>        |   12.012|
+A<7>           |Cout           |   12.211|
+A<7>           |Sout<7>        |    8.645|
+A<7>           |Sout<8>        |   11.353|
+A<7>           |Sout<9>        |   12.441|
+A<8>           |Cout           |   10.282|
+A<8>           |Sout<8>        |    9.017|
+A<8>           |Sout<9>        |   10.512|
+A<9>           |Cout           |    9.624|
+A<9>           |Sout<9>        |    9.493|
+B<0>           |Cout           |   18.111|
+B<0>           |Sout<0>        |    9.042|
+B<0>           |Sout<1>        |    9.354|
+B<0>           |Sout<2>        |   10.752|
+B<0>           |Sout<3>        |   11.691|
+B<0>           |Sout<4>        |   13.060|
+B<0>           |Sout<5>        |   13.488|
+B<0>           |Sout<6>        |   14.061|
+B<0>           |Sout<7>        |   14.551|
+B<0>           |Sout<8>        |   17.253|
+B<0>           |Sout<9>        |   18.341|
+B<1>           |Cout           |   17.900|
+B<1>           |Sout<1>        |    9.355|
+B<1>           |Sout<2>        |   10.541|
+B<1>           |Sout<3>        |   11.480|
+B<1>           |Sout<4>        |   12.849|
+B<1>           |Sout<5>        |   13.277|
+B<1>           |Sout<6>        |   13.850|
+B<1>           |Sout<7>        |   14.340|
+B<1>           |Sout<8>        |   17.042|
+B<1>           |Sout<9>        |   18.130|
+B<2>           |Cout           |   16.300|
+B<2>           |Sout<2>        |    9.280|
+B<2>           |Sout<3>        |    9.880|
+B<2>           |Sout<4>        |   11.249|
+B<2>           |Sout<5>        |   11.677|
+B<2>           |Sout<6>        |   12.250|
+B<2>           |Sout<7>        |   12.740|
+B<2>           |Sout<8>        |   15.442|
+B<2>           |Sout<9>        |   16.530|
+B<3>           |Cout           |   15.201|
+B<3>           |Sout<3>        |    8.799|
+B<3>           |Sout<4>        |   10.150|
+B<3>           |Sout<5>        |   10.578|
+B<3>           |Sout<6>        |   11.151|
+B<3>           |Sout<7>        |   11.641|
+B<3>           |Sout<8>        |   14.343|
+B<3>           |Sout<9>        |   15.431|
+B<4>           |Cout           |   15.668|
+B<4>           |Sout<4>        |   10.374|
+B<4>           |Sout<5>        |   11.045|
+B<4>           |Sout<6>        |   11.618|
+B<4>           |Sout<7>        |   12.108|
+B<4>           |Sout<8>        |   14.810|
+B<4>           |Sout<9>        |   15.898|
+B<5>           |Cout           |   13.834|
+B<5>           |Sout<5>        |    9.296|
+B<5>           |Sout<6>        |    9.784|
+B<5>           |Sout<7>        |   10.274|
+B<5>           |Sout<8>        |   12.976|
+B<5>           |Sout<9>        |   14.064|
+B<6>           |Cout           |   12.492|
+B<6>           |Sout<6>        |    8.038|
+B<6>           |Sout<7>        |    8.932|
+B<6>           |Sout<8>        |   11.634|
+B<6>           |Sout<9>        |   12.722|
+B<7>           |Cout           |   11.323|
+B<7>           |Sout<7>        |    7.848|
+B<7>           |Sout<8>        |   10.465|
+B<7>           |Sout<9>        |   11.553|
+B<8>           |Cout           |    9.675|
+B<8>           |Sout<8>        |    8.704|
+B<8>           |Sout<9>        |    9.905|
+B<9>           |Cout           |    9.266|
+B<9>           |Sout<9>        |    9.063|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Feb 14 11:54:32 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 156 MB
+
+
+

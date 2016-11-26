@@ -1,0 +1,3 @@
+vhdl isim_temp "../DFF_PC/DFF_PC.vhd"
+vhdl isim_temp "PIPO4.vhd"
+vhdl isim_temp "PIPO4_tb.vhd"

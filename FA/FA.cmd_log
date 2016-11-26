@@ -1,0 +1,44 @@
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -t 1 FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -t 1 FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -t 1 FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -t 1 FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -t 1 FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -t 1 FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA/FA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA.ngc" FA.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA_map.ncd FA.ngd FA.pcf 
+par -w -intstyle ise -ol high -t 1 FA_map.ncd FA.ncd FA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA.twx FA.ncd -o FA.twr FA.pcf 

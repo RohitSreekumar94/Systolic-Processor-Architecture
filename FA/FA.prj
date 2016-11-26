@@ -1,0 +1,2 @@
+vhdl work "../HA/HA.vhd"
+vhdl work "FA.vhd"

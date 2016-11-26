@@ -1,0 +1,19 @@
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA10.ngc" FA10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA10_map.ncd FA10.ngd FA10.pcf 
+par -w -intstyle ise -ol high -t 1 FA10_map.ncd FA10.ncd FA10.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA10.twx FA10.ncd -o FA10.twr FA10.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA10.ngc" FA10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA10_map.ncd FA10.ngd FA10.pcf 
+par -w -intstyle ise -ol high -t 1 FA10_map.ncd FA10.ncd FA10.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA10.ngc" FA10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA10_map.ncd FA10.ngd FA10.pcf 
+par -w -intstyle ise -ol high -t 1 FA10_map.ncd FA10.ncd FA10.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA10.twx FA10.ncd -o FA10.twr FA10.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/FA10/FA10.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "FA10.ngc" FA10.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o FA10_map.ncd FA10.ngd FA10.pcf 
+par -w -intstyle ise -ol high -t 1 FA10_map.ncd FA10.ncd FA10.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FA10.twx FA10.ncd -o FA10.twr FA10.pcf 

@@ -1,0 +1,3 @@
+vhdl work "../HA/HA.vhd"
+vhdl work "FAM.vhd"
+vhdl work "FAM_tb.vhd"

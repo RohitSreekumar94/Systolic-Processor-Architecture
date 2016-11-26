@@ -1,0 +1,5 @@
+vhdl work "../HA/HA.vhd"
+vhdl work "../HAM/HAM.vhd"
+vhdl work "../FAM/FAM.vhd"
+vhdl work "../FA/FA.vhd"
+vhdl work "MAC4.vhd"

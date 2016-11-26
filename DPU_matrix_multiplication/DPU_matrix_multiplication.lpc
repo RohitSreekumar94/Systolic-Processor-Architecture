@@ -1,0 +1,37 @@
+# DPU_matrix_multiplication.lpc  
+#   The constraints in this file were created simply to be viewed.  
+#   If you wish to use these constraints, please copy them into your  
+#   project's constraint file. If you do not have a project constraints  
+#   file yet, please use the "Project->New Source" menu to create one.
+
+
+
+#pin2ucf - Mon Feb 22 00:04:57 2016
+#The following constraints were newly added
+NET "Result<2>" LOC = P25;
+NET "Aout<3>" LOC = P40;
+NET "CLK" LOC = P55;
+NET "Result<3>" LOC = P24;
+NET "Result<4>" LOC = P33;
+NET "Ain<0>" LOC = P35;
+NET "Result<5>" LOC = P26;
+NET "Ain<1>" LOC = P21;
+NET "Result<6>" LOC = P28;
+NET "Ain<2>" LOC = P44;
+NET "Result<7>" LOC = P46;
+NET "Ain<3>" LOC = P41;
+NET "Result<8>" LOC = P30;
+NET "Result<9>" LOC = P31;
+NET "Bin<0>" LOC = P51;
+NET "Bin<1>" LOC = P53;
+NET "Bin<2>" LOC = P56;
+NET "Bin<3>" LOC = P57;
+NET "Bout<0>" LOC = P50;
+NET "Bout<1>" LOC = P52;
+NET "Aout<0>" LOC = P36;
+NET "Bout<2>" LOC = P58;
+NET "Aout<1>" LOC = P20;
+NET "Result<0>" LOC = P32;
+NET "Bout<3>" LOC = P59;
+NET "Aout<2>" LOC = P47;
+NET "Result<1>" LOC = P27;

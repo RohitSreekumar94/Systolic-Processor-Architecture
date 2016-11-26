@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-tq144-4 "DFF_PC.ngc" DFF_PC.ngd  
+map -intstyle ise -p xc3s400-tq144-4 -cm area -ir off -pr off -c 100 -o DFF_PC_map.ncd DFF_PC.ngd DFF_PC.pcf 
+par -w -intstyle ise -ol high -t 1 DFF_PC_map.ncd DFF_PC.ncd DFF_PC.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml DFF_PC.twx DFF_PC.ncd -o DFF_PC.twr DFF_PC.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc4vsx35-ff668-12 "DFF_PC.ngc" DFF_PC.ngd  
+map -intstyle ise -p xc4vsx35-ff668-12 -global_opt off -cm area -ir off -pr off -c 100 -o DFF_PC_map.ncd DFF_PC.ngd DFF_PC.pcf 
+xst -intstyle ise -ifn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.xst" -ofn "E:/Works/GitHub/Systolic-Processor-On-FPGA/ISE Design Files/DFF_PC/DFF_PC.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s400-pq208-5 "DFF_PC.ngc" DFF_PC.ngd  
+map -intstyle ise -p xc3s400-pq208-5 -cm area -ir off -pr off -c 100 -o DFF_PC_map.ncd DFF_PC.ngd DFF_PC.pcf 
+par -w -intstyle ise -ol high -t 1 DFF_PC_map.ncd DFF_PC.ncd DFF_PC.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DFF_PC.twx DFF_PC.ncd -o DFF_PC.twr DFF_PC.pcf 
