@@ -6,5 +6,5 @@ Date Completed : March 2016
 
 Simulation tool : Xilinx ISE
 
-The documentation to this projet can be found here
+The documentation to this project can be found here
 https://github.com/RohitSreekumar94/Systolic-Processor-Architecture/tree/master/Docs
